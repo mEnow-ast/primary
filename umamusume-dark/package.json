@@ -1,0 +1,15 @@
+{
+  "name": "umamusume-dark",
+  "theme": "syntax",
+  "version": "0.0.0",
+  "description": "umamusume(Goldship) motif theme",
+  "keywords": [
+    "syntax",
+    "theme"
+  ],
+  "repository": "https://github.com/atom/tarfi-syntax",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  }
+}
