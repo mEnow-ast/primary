@@ -1,0 +1,15 @@
+{
+  "name": "meow",
+  "theme": "ui",
+  "version": "0.0.0",
+  "description": "umamusume(Goldship) motif theme",
+  "keywords": [
+    "ui",
+    "theme"
+  ],
+  "repository": "https://github.com/mEnow-ast/ui-theme-template",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  }
+}

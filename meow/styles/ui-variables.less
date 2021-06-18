@@ -1,0 +1,98 @@
+
+// UI Variables
+// -------------------
+@text-orignal:  rgba(0, 0, 0, .8); //!
+@white-orignal: rgba(255, 255, 255, 1);
+@black-orignal: rgba(0, 0, 0, 1);
+@none-orignal:  rgba(0, 0, 0, 0);
+@gold-orignal:  rgba(255, 255, 5, .8);
+
+@tab-non-active-color: rgba(0, 0, 0, .3);
+@tree-font-o-color:    rgba(0, 222, 0, .9);
+
+
+// Text Colors
+@text-color:           @white-orignal;
+@text-color-subtle:    @text-color;
+@text-color-highlight: @white-orignal;
+@text-color-selected:  @white-orignal;
+
+@text-color-info:    rgba(255, 87, 133, .9); //!
+@text-color-success: rgba(27, 156, 113, 1); //test
+@text-color-warning: rgba(226, 192, 140, 1);
+@text-color-error:   rgba(255, 98, 71, 1);
+
+// Background colors
+@background-color-info:    rgba(115, 50, 235, .8); //! ヒントなどを表示する色
+@background-color-success: rgba(27, 156, 113, 1);
+@background-color-warning: rgba(204, 132, 51, 1);
+@background-color-error:   rgba(216, 38, 38, 1);
+
+@background-color-highlight: @tab-bar-background-color;
+//Treeの選択しているファイルの色
+@background-color-selected:  lighten(@tab-bar-background-color, 10%);
+//Treeにかぶせている色
+@app-background-color: @none-orignal;
+
+// Base colors
+@base-background-color: @none-orignal;
+@base-border-color:     rgba(255, 87, 133, .9); //!
+
+// Component colors
+@pane-item-background-color: @base-background-color;
+@pane-item-border-color:     @base-border-color;
+
+//検索窓
+@input-background-color: rgba(255, 255, 255, .7); //!　変換などのバックグラウンドカラー
+@input-border-color:     @base-border-color;
+@search-background-color: rgba(255, 87, 133, .5);
+
+@tool-panel-background-color: @none-orignal;
+@tool-panel-border-color:     @base-border-color;
+
+@inset-panel-background-color: @gold-orignal;
+@inset-panel-border-color:     @base-border-color;
+
+@panel-heading-background-color: @gold-orignal;
+@panel-heading-border-color:     @base-border-color;
+
+@overlay-background-color: rgba(255, 255, 255, .9); //!
+@overlay-border-color:     @base-border-color;
+
+@button-background-color:          rgba(255, 255, 255, .3);
+@button-background-color-hover:    @button-background-color;
+@button-background-color-selected: rgba(255, 87, 133, .7); //!
+@button-border-color:              @base-border-color;
+
+//タブ全体のカラー
+@tab-bar-background-color:    rgba(255, 15, 14, .3); //!
+@tab-bar-border-color: @base-border-color;
+@tab-background-color: @none-orignal;
+@tab-background-color-active: @base-border-color;
+@tab-border-color: @base-border-color;
+@tree-view-background-color: @button-background-color-selected;
+@tree-view-border-color:     @base-border-color;
+
+// Site colors
+@ui-site-color-1: rgba(0,136,255,1);  // blue
+@ui-site-color-2: rgba(32,182,132,1); // green
+@ui-site-color-3: rgba(204,132,51,1); // orange
+@ui-site-color-4: rgba(216,49,176,1); // pink
+@ui-site-color-5: rgba(235,211,91,1); // yellow
+
+// Sizes
+@font-size: 12px;
+@input-font-size: 14px;
+
+@disclosure-arrow-size: 12px;
+
+@component-padding: 10px;
+@component-icon-padding: 5px;
+@component-icon-size: 16px;
+@component-line-height: 25px;
+
+@tab-height: 30px;
+
+// Misc
+@component-border-radius: 2px;
+@font-family: '.SFNSText-Regular', 'SF UI Text', 'Lucida Grande', 'Segoe UI', Ubuntu, Cantarell, sans-serif;
